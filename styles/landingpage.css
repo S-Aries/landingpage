@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #sticky-nav{
+    position: relative;
+  }
+ 
+  header {
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  li {
+    margin: 5px 12px 10px 15px;
+    list-style-type: none;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    width: 100vw;
+    background-color: rgba(0, 225, 225, 0.3);
+  }
+  nav > ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 0rem;
+    
+  }
+ 
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 150px 0 auto;
+    color: yellow;
+    
+  }
+  .grid {
+    display: flex;
+  }
+  .symbol {
+    display: flex;
+    justify-content: center;
+  }
+   
+  body {
+    display: flex;
+    background-image: url(https://coverfiles.alphacoders.com/124/124523.jpg); 
+    font-family: 'Trade Winds', sans-serif;
+    justify-content: center;
+  }
+  
+  .information {
+    display: grid;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  #header-img {
+    width: 50px;
+  }
+  .insignia {
+    display: flex;
+    justify-content: center;
+  }
+  #info {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+  }
+  #mo-pic {
+    display: flex;
+    justify-content: center;
+    margin-right: 350px;
+    padding-bottom: 2rem;
+  }
+  @media(max-width: 400px) {
+    #mo-pic {
+      flex-direction: center;
+    }
+  }
+ 
+  .center {
+    text-align: center;
+    margin-right: 350px;
+    padding-bottom: 1vw;
+  }
+  form {
+    display: grid;
+    height: 80px;
+    grid-template-rows: 30px 1fr;
+    margin-right: 350px;
+    margin-bottom: 30px;
+    opacity: 0.65;
+    row-gap: 5%;
+  }
+  #email {
+    border-radius: 8px;
+    width: 50%;
+    margin-left: 170px;
+    font-family: 'Trade Winds', sans-serif;
+  }
+  #submit {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin-left: 170px;
+    font-family: 'Trade Winds', sans-serif;
+  }
+  .btn {
+    font-weight: 500;
+    cursor: pointer;
+  }
+  footer {
+    width: 100%;
+    height: 50px;
+  }
